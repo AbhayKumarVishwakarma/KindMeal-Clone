@@ -1,3 +1,17 @@
+
+document.querySelector("#butt").addEventListener("click", function mySign(){
+    location.href = "signup.html"
+})
+
+document.querySelector("#b2").addEventListener("click", function mylogin(){
+    location.href = "login.html"
+})
+
+document.querySelector("#home").addEventListener("click", function myhome(){
+    location.href = "index.html"
+})
+
+
 // let arr = [
 //     {img: "https://www.kindmeal.my/photos/deal/7/712-5119-m.jpg"},
 //     {img: "https://www.kindmeal.my/photos/deal/6/626-3611-m.jpg"},
