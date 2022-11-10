@@ -15,7 +15,7 @@
     margin: auto;
 }
 #nav>.nav1>#nav1-img2>img {
-    width: 20%;
+    width: 13%;
     margin: auto 7px;
 }
 #nav>.nav1>#nav1-3 {
@@ -69,6 +69,10 @@
 }
 #nav2>div>div:nth-child(1){
     background-color: rgb(57, 119, 85);
+}
+
+#home,#b2{
+    cursor: pointer;
 }
 
 /* ------- */
@@ -244,12 +248,11 @@ samp{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: 1px solid black;
+    /* background-color: 1px solid black; */
 }
 #bImg{
     margin: auto;
     width: 100%;
-    border: 1px solid rgb(138, 137, 137);
     background-color: rgb(225, 218, 218);
 }
 #bImg>div{
