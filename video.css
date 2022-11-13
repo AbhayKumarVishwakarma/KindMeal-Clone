@@ -1,0 +1,199 @@
+#nav {
+    width: 73%;
+    margin: auto;
+}
+#nav>.nav1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#nav>.nav1>#nav1-img>img {
+    width: 70%;
+}
+#nav>.nav1>#nav1-img2 {
+    margin: auto;
+    width: 20%;
+}
+#nav>.nav1>#nav1-img2>img {
+    width: 13%;
+    margin: auto 7px;
+}
+#nav>.nav1>#nav1-3 {
+    height: 30px;
+    width: 27%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav>.nav1>#nav1-3>#b1 {
+    border-radius: 7px;
+    background-color: royalblue;
+    color: white;
+    border: 0px;
+    padding: 4px 13px;
+}
+#nav>.nav1>#nav1-3>#b2 {
+    border-radius: 7px;
+    background-color: rgb(84, 74, 74);
+    color: white;
+    border: 0px;
+    padding: 4px 18px;
+}
+#nav>.nav1>#nav1-3>#b3 {
+    background-color: white;
+    border: 0px;
+    border-left: 1px solid rgb(143, 130, 130);
+    padding: 4px 8px;
+}
+
+
+#nav2 {
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: mediumseagreen;
+}
+#nav2>div{
+    width: 73%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#nav2>div>div{
+    width: 12%;
+    /* margin: auto; */
+    padding: 5px 0px;
+    font-size: large;
+    text-align: center;
+}
+#artical{
+    background-color: rgb(57, 119, 85);
+    cursor: pointer;
+}
+
+#home,#b2,#b3,#recipes,#artical{
+    cursor: pointer;
+}
+
+/* ----- */
+
+#top{
+    background-color: rgb(230, 225, 225);
+}
+#top>div{
+    width: 73%;
+    margin: auto;
+    padding: 10px 0px;
+    /* height: 10px; */
+}
+
+#middle{
+    width: 77%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+#mid{
+    width: 70%;
+}
+#middle1{
+    width: 100%;
+    height:auto;
+    /* margin: auto; */
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 2px 0px 20px;
+}
+#img5{
+    width: 78%;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#img5>img{
+    width: 18%;
+    height: 100px;
+    border: 1px solid rgb(146, 144, 144);
+    border-radius: 7px;
+}
+#pImg{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+#hp{
+    margin-left: 20px;
+}
+#backBut{
+    margin: 20px auto auto 20px;
+    padding: 7px 22px;
+    font-size: large;
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 11px;
+}
+#middle2{
+    width: 20%;
+    padding: 15px;
+    border-radius: 11px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+#middle2>div{
+    margin-bottom: 15px;
+}
+#middle2>h2{
+    color: rgb(96, 100, 103);
+}
+#middle2>div>a{
+    color: rgb(121, 123, 125);
+}
+
+
+/* ----- */
+
+#bottom2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* background-color: 1px solid black; */
+}
+#bPara{
+    margin: auto;
+    width: 100%;
+    background-color: mediumseagreen;
+    color: white;
+}
+#bPara>.para1{
+    margin:0px auto 10px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    font-size: 14px;
+    
+}
+#bPara>.para1>div>a{
+    /* display: block;
+    margin: -5px 0px; */
+    color: white;
+}
+#bPara>.para1>div>h3{
+    margin-bottom: -0px;
+}
+#bPara>.para2{
+    margin:0px auto 10px;
+    width: 70%;
+    text-align: center;
+    font-size: 11px;
+}
+#bPara>.para2>p:nth-child(1){
+    margin: 20px auto -9px;
+}
