@@ -13,7 +13,9 @@
 }
 #nav>.nav1>#nav1-img2 {
     margin: auto;
+
     width: 20%;
+
 }
 #nav>.nav1>#nav1-img2>img {
     width: 13%;
@@ -68,9 +70,11 @@
     font-size: large;
     text-align: center;
 }
+
 #home,#b2,#b3,#recipes{
     cursor: pointer;
 }
+
 
 
 /* ----- */

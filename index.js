@@ -11,6 +11,7 @@ document.querySelector("#home").addEventListener("click", function myhome(){
     location.href = "index.html"
 })
 
+
 document.querySelector("#recipes").addEventListener("click", function myhome(){
     location.href = "recipes.html"
 })
@@ -98,6 +99,7 @@ function myLogo(arrr){
         document.querySelector("#displayLogo").append(image)
     count++
 }
+
 
 
 // let arr = [
