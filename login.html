@@ -14,7 +14,9 @@
     <div id="nav">
         <div class="nav1">
             <div id="nav1-img">
-                <img src="C:\Users\ABHAY KUMAR\Pictures\imp\logo.png" alt="logo">
+
+                <img src="logo.png" alt="logo">
+
             </div>
             <div id="nav1-img2">
                 <img src="https://www.kindmeal.my/images/follow_blog_grey.png" alt="link">
@@ -35,9 +37,11 @@
             <div>Meal Deals</div>
             <div>KindMoments</div>
             <div>Hot Picks</div>
-            <div>Recipes</div>
+
+            <div id="recipes">Recipes</div>
             <div>Directory</div>
-            <div>Artical</div>
+            <div id="artical">Artical</div>
+
             <div>Help</div>
         </div>
     </div>
@@ -95,10 +99,12 @@
             if (element.pEmail === pObj.pEmail && element.pPassword === pObj.pPassword) {
                 flag = "yes"
             }
-            else if(element.pEmail !== pObj.pEmail){
+
+            else if (element.pEmail !== pObj.pEmail) {
                 alert("Wrong Email")
             }
-            else if(element.pPassword !== pObj.pPassword){
+            else if (element.pPassword !== pObj.pPassword) {
+
                 alert("Wrong Password")
             }
         })
@@ -111,16 +117,27 @@
         console.log(login, typeof login)
     }
 
-    document.querySelector("#home").addEventListener("click", function myhome(){
+
+    document.querySelector("#home").addEventListener("click", function myhome() {
         location.href = "index.html"
     })
 
-    document.querySelector("#b3").addEventListener("click", function mySign(){
-    location.href = "signup.html"
+    document.querySelector("#b3").addEventListener("click", function mySign() {
+        location.href = "signup.html"
     })
 
-    document.querySelector("#b2").addEventListener("click", function mylogin(){
-    location.href = "login.html"
+    document.querySelector("#b2").addEventListener("click", function mylogin() {
+        location.href = "login.html"
+    })
+
+    document.querySelector("#recipes").addEventListener("click", function myhome() {
+        location.href = "recipes.html"
+    })
+
+    document.querySelector("#artical").addEventListener("click", function myhome(){
+       location.href = "artical.html"
+
+    
     })
 
 

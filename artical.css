@@ -13,9 +13,7 @@
 }
 #nav>.nav1>#nav1-img2 {
     margin: auto;
-
     width: 20%;
-
 }
 #nav>.nav1>#nav1-img2>img {
     width: 13%;
@@ -70,76 +68,124 @@
     font-size: large;
     text-align: center;
 }
+#artical{
+    background-color: rgb(57, 119, 85);
+    cursor: pointer;
+}
 
 #home,#b2,#b3,#recipes{
     cursor: pointer;
 }
 
-
-
 /* ----- */
 
-#cont{
-    /* height: 700px;  */
-    width: 73%; 
-    /* border: 1px solid red;  */
-    margin:20px auto 100px;
-    display: flex;
+#top{
+    background-color: rgb(230, 225, 225);
 }
-#cont>.inform{
-    height: 200px;
+#top>div{
+    width: 73%;
+    margin: auto;
+    padding: 10px 0px;
+    /* height: 10px; */
+}
+
+#middle{
+    width: 50%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    /* border: 1px solid red; */
+}
+#middle>div{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    border: 7px solid rgb(235, 0, 0);
+    border-radius: 15px;
+}
+#middle>div>div{
+    width: 50%;
+    height: 300px;
+}
+#middle>div>div>img{
+    width: 100%;
+    height: 300px;
+}
+#middle>div>div:nth-child(2){
+    padding: 0px 0px 0px 20px;
+}
+#videoBut{
+    display: block;
+    width: 25%;
+    margin: 50px;
+    padding: 7px 22px;
+    font-size: large;
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 11px;
+    text-decoration: none;
+}
+/* #mid{
     width: 70%;
-    margin-top: 23px;
-    align-items: center;
+}
+#middle1{
+    width: 100%;
+    height:auto;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 2px 0px 20px;
+}
+#img5{
+    width: 78%;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#img5>img{
+    width: 18%;
+    height: 100px;
+    border: 1px solid rgb(146, 144, 144);
+    border-radius: 7px;
+}
+#pImg{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+#hp{
+    margin-left: 20px;
+}
+#backBut{
+    margin: 20px auto auto 20px;
+    padding: 7px 22px;
+    font-size: large;
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 11px;
+}
+#middle2{
+    width: 20%;
+    padding: 15px;
+    border-radius: 11px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 10px;
-    /* border: 1px solid blue; */
 }
-#cont>.inform>div:nth-child(1){
-    height: 200px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    text-align: center;
-    border-radius: 11px;
-    padding: 17px 0px 0px;
-    background-color: rgb(241, 238, 238);
+#middle2>div{
+    margin-bottom: 15px;
 }
-#cont>.inform>div:nth-child(2){
-
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    text-align: center;
-    border-radius: 11px;
-    padding: 17px;
+#middle2>h2{
+    color: rgb(96, 100, 103);
 }
-#cont>.inform>div:nth-child(3){
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    /* text-align: center; */
-    border-radius: 11px;
-    /* padding: 17px; */
-} 
-#cont>.inform>div>p{
-    text-align: center;
-    font-size: large;
-    color: dimgray;
-}
-#cont>.fillForm{
-    margin: 0px 0px 0px 40px;
-    /* border: 1px solid blue; */
-}
-#cont>.fillForm>.formCont{
-    display: flex;
-}
-#form{
-    margin-left: 40px;
-}
-.name{
-    display: flex;
-}
-input{
-    padding: 10px;
-    font-size: large;
-}
-
+#middle2>div>a{
+    color: rgb(121, 123, 125);
+} */
 
 
 /* ----- */
@@ -148,15 +194,7 @@ input{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-}
-#bImg{
-    margin: auto;
-    width: 100%;
-    background-color: rgb(225, 218, 218);
-}
-#bImg>div{
-    margin: auto;
-    width: 73%;
+    /* background-color: 1px solid black; */
 }
 #bPara{
     margin: auto;
@@ -171,6 +209,7 @@ input{
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     font-size: 14px;
+    
 }
 #bPara>.para1>div>a{
     /* display: block;
@@ -189,4 +228,3 @@ input{
 #bPara>.para2>p:nth-child(1){
     margin: 20px auto -9px;
 }
-

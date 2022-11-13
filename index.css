@@ -13,6 +13,7 @@
 }
 #nav>.nav1>#nav1-img2 {
     margin: auto;
+    width: 20%;
 }
 #nav>.nav1>#nav1-img2>img {
     width: 13%;
@@ -107,7 +108,9 @@
 }
 .top2>div>img{
     margin: auto;
-    
+}
+#home,#recipes,#artical{
+    cursor: pointer;
 }
 
 /* ------- */
@@ -179,8 +182,12 @@ samp{
 #second>div>img{
     /* max-width: 100%;
     min-width: 100%; */
-    max-height: 198px;
-    flex-shrink: 0;
+    /* max-height: 198px;
+    flex-shrink: 0; */
+    border: 1px solid rgb(169, 167, 167);
+    height: 200px; 
+    width: 100%;
+    /* border: 1px slid rgb(181, 172, 172); */
 }
 
 #bottom1{

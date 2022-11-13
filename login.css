@@ -13,6 +13,9 @@
 }
 #nav>.nav1>#nav1-img2 {
     margin: auto;
+
+    width: 20%;
+
 }
 #nav>.nav1>#nav1-img2>img {
     width: 13%;
@@ -67,8 +70,11 @@
     font-size: large;
     text-align: center;
 }
-#nav2>div>div:nth-child(1){
-    background-color: rgb(57, 119, 85);
+
+#home,#b2,#b3,#recipes,#artical{
+    cursor: pointer;
+     
+
 }
 
 #sign {
@@ -102,6 +108,6 @@ input {
     font-size: large;
 }
 
-#home,#b2,#b3{
-    cursor: pointer;
-}
+
+
+

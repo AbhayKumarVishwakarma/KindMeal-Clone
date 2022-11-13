@@ -13,9 +13,7 @@
 }
 #nav>.nav1>#nav1-img2 {
     margin: auto;
-
     width: 20%;
-
 }
 #nav>.nav1>#nav1-img2>img {
     width: 13%;
@@ -70,77 +68,59 @@
     font-size: large;
     text-align: center;
 }
-
-#home,#b2,#b3,#recipes{
+#recipes{
+    background-color: rgb(57, 119, 85);
     cursor: pointer;
 }
 
-
+#home,#b2,#b3,#recipes,#artical{
+    cursor: pointer;
+}
 
 /* ----- */
 
-#cont{
-    /* height: 700px;  */
-    width: 73%; 
-    /* border: 1px solid red;  */
-    margin:20px auto 100px;
+#top{
+    background-color: rgb(230, 225, 225);
+}
+#top>div{
+    width: 73%;
+    margin: auto;
+    padding: 30px 0px;
+}
+#IS{
+    margin: auto;
     display: flex;
 }
-#cont>.inform{
-    height: 200px;
-    width: 70%;
-    margin-top: 23px;
-    align-items: center;
+form{
+    width: 80%;
+}
+#butR{
+    margin: auto 20px;
+    padding: 10px; 
+    font-size: large; 
+    background-color: red; 
+    border: 0px; 
+    border-radius: 11px; color: aliceblue;
+}
+
+#mid{
+    margin: 40px auto;
+    width: 73%;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 10px;
-    /* border: 1px solid blue; */
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 }
-#cont>.inform>div:nth-child(1){
-    height: 200px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    text-align: center;
+#mid>div{
+    width: 92%;
+    margin: auto;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 11px;
-    padding: 17px 0px 0px;
-    background-color: rgb(241, 238, 238);
 }
-#cont>.inform>div:nth-child(2){
-
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    text-align: center;
-    border-radius: 11px;
-    padding: 17px;
+#mid>div>img{
+    width: 100%;
+    height: 250px;
 }
-#cont>.inform>div:nth-child(3){
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    /* text-align: center; */
-    border-radius: 11px;
-    /* padding: 17px; */
-} 
-#cont>.inform>div>p{
-    text-align: center;
-    font-size: large;
-    color: dimgray;
-}
-#cont>.fillForm{
-    margin: 0px 0px 0px 40px;
-    /* border: 1px solid blue; */
-}
-#cont>.fillForm>.formCont{
-    display: flex;
-}
-#form{
-    margin-left: 40px;
-}
-.name{
-    display: flex;
-}
-input{
-    padding: 10px;
-    font-size: large;
-}
-
-
 
 /* ----- */
 
@@ -148,15 +128,7 @@ input{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-}
-#bImg{
-    margin: auto;
-    width: 100%;
-    background-color: rgb(225, 218, 218);
-}
-#bImg>div{
-    margin: auto;
-    width: 73%;
+    /* background-color: 1px solid black; */
 }
 #bPara{
     margin: auto;
@@ -171,6 +143,7 @@ input{
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     font-size: 14px;
+    
 }
 #bPara>.para1>div>a{
     /* display: block;
@@ -189,4 +162,3 @@ input{
 #bPara>.para2>p:nth-child(1){
     margin: 20px auto -9px;
 }
-
